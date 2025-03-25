@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electricity Discount Validation and Usage</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .navbar {
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .jumbotron {
+            background: linear-gradient(90deg, rgba(0, 123, 255, 0.8), rgb(0, 86, 179));
+            color: white;
+            padding: 50px 20px;
+        }
+        .jumbotron h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+        .jumbotron p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+        .form-group label {
+            font-weight: bold;
+        }
+        .btn {
+            margin-top: 10px;
+        }
+        .alert {
+            margin-top: 20px;
+        }
+        .usage-data, .discount-data {
+            margin-top: 30px;
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 10px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .usage-data h5, .discount-data h5 {
+            font-size: 1.3rem;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="dashboard.php">Electricity Billing System</a>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.php">Calculation</a></li>
+                <li class="nav-item"><a class="nav-link" href="Check_outstanding.php">Check Outstanding</a></li>
+                <li class="nav-item"><a class="nav-link" href="discount.php">Discount and Usage Management</a></li>
+                <li class="nav-item"><a class="nav-link" href="logout.php">Logout</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="jumbotron text-center">
+        <h1 class="display-4">Electricity Discount and Usage Management</h1>
+        <p class="lead">Manage, Validate, and Apply Discounts for Electricity Usage</p>
+    </div>
+</body>
+</html>

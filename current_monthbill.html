@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Current Month Bill</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .navbar {
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .jumbotron {
+            background: linear-gradient(90deg, rgba(0, 123, 255, 0.8), rgb(0, 86, 179));
+            color: white;
+            padding: 50px 20px;
+        }
+        .jumbotron h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+        .jumbotron p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+        .table {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .table th, .table td {
+            padding: 15px;
+            text-align: center;
+        }
+        .receipt {
+            border: 1px solid #007bff;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2);
+            margin-top: 20px;
+        }
+        .receipt h5 {
+            font-size: 1.5rem;
+            color: #007bff;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .receipt p {
+            margin: 5px 0;
+            font-size: 1.1rem;
+        }
+
+        .btn-success {
+            margin-top: 20px; /* Adds spacing above the button */
+            margin-bottom: 20px; /* Adds spacing below the button */
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="dashboard.php">Electricity Billing System</a>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.php">Calculation</a></li>
+                <li class="nav-item"><a class="nav-link" href="Check_outstanding.php">Check Outstanding</a></li>
+                <li class="nav-item"><a class="nav-link" href="discount.php">Discount and Usage Management</a></li>
+                <li class="nav-item"><a class="nav-link" href="logout.php">Logout</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="jumbotron text-center">
+        <h1 class="display-4">Current Month Electricity Bill</h1>
+        <p class="lead">Calculate and Generate Your Monthly Bill</p>
+    </div>
+</body>
+</html>
